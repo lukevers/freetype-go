@@ -13,8 +13,8 @@ import (
 	"image"
 	"image/draw"
 
-	"code.google.com/p/freetype-go/freetype/raster"
-	"code.google.com/p/freetype-go/freetype/truetype"
+	"github.com/lukevers/freetype-go/freetype/raster"
+	"github.com/lukevers/freetype-go/freetype/truetype"
 )
 
 // These constants determine the size of the glyph cache. The cache is keyed
