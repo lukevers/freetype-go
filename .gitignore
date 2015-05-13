@@ -1,7 +1,4 @@
-syntax:glob
 .DS_Store
-.git
-.gitignore
 *.[568ao]
 *.a[568o]
 *.so
@@ -27,9 +24,3 @@ goinstall.log
 last-change
 VERSION.cache
 out.png
-
-syntax:regexp
-^bin/
-^pkg/
-^src/cmd/(.*)/6?\1$
-^.*/core.[0-9]*$
